@@ -7,7 +7,7 @@ const PropertyCard = () => {
   return (
     <div className="w-full min-w- max-w-6xl mx-auto p-6">
       <div>
-        <Card className="relative rounded-t-xl shadow-lg border bg-white p-6 grid gap-10 lg:grid-cols-2  lg:px-20 lg:py-8 lg:pb-10 dark:text-gray-950">
+        <Card className="relative rounded-t-xl shadow-lg border bg-white ring ring-gray-950/5 p-6 grid gap-10 lg:grid-cols-2 lg:px-20 lg:py-8 lg:pb-10 dark:bg-gray-950/90">
           <CardContent>
             <div className="relative mb-4 max-xl:-mx-4 max-xl:-mt-4">
               <div className="grid grid-cols-1 gap-2 sm:grid-cols-4 lg:hidden">
@@ -63,7 +63,7 @@ const PropertyCard = () => {
                   <div className="lg:hidden">
                     <Button
                       type="button"
-                      className="font-semibold bg-pink-600 p-2 text-white text-sm/6 rounded-lg w-full"
+                      className="font-semibold bg-pink-600 p-2 text-white text-sm/6 rounded-lg w-full hover:bg-pink-500"
                     >
                       Check Availability
                     </Button>
@@ -83,7 +83,7 @@ const PropertyCard = () => {
               <div className="hidden mt-6 lg:block">
                 <Button
                   type="button"
-                  className="font-semibold bg-pink-600 p-2 text-white text-sm/6 rounded-lg"
+                  className="font-semibold bg-pink-600 p-2 text-white text-sm/6 rounded-lg hover:bg-pink-500"
                 >
                   Check Availability
                 </Button>
